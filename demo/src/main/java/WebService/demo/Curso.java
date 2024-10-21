@@ -1,32 +1,32 @@
 package WebService.demo;
 
 public class Curso {
-    private String nome;
-    private int duracao;
+    private String nomeCurso;  // Nome alterado
+    private int tempoDuracao;  // Nome alterado
 
     public Curso() {
     }
 
-    public Curso(String nome, int duracao) {
-        this.nome = nome;
-        this.duracao = duracao;
+    public Curso(String nomeCurso, int tempoDuracao) {
+        this.nomeCurso = nomeCurso;
+        this.tempoDuracao = tempoDuracao;
     }
 
-    public int getDuracao() {
-        return duracao;
+    public int getTempoDuracao() {
+        return tempoDuracao;
     }
 
-    public String getNome() {
-        return nome;
+    public String getNomeCurso() {
+        return nomeCurso;
     }
 
-    public void setDuracao(int duracao) {
-        this.duracao = duracao;
+    public void setTempoDuracao(int tempoDuracao) {
+        this.tempoDuracao = tempoDuracao;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNomeCurso(String nomeCurso) {
+        this.nomeCurso = nomeCurso;
     }
 }
 
-//Pedro Andrade 10408394
+// Pedro Andrade 10408394
